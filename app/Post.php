@@ -8,4 +8,10 @@ class Post extends Model
 		//create a many to many relationships with Comments
 		return $this->hasMany(Comment::class); //Comments::class gives a string with the path to the class
 	}
+
+	public function user(){
+
+		return $this->belongsTo(User::class);
+		 
+	}
 }

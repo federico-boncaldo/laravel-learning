@@ -12,11 +12,9 @@ use App\Task;
 |
 */
 
-Route::get('/', function(){
-	return view('index');
-});
 
-Route::get('/posts', 'PostsController@index');
+
+Route::get('/', 'PostsController@index')->name('home');
 
 Route::post('/posts', 'PostsController@store');
 
@@ -29,3 +27,15 @@ Route::get('/tasks', 'TasksController@index');
 Route::get('/tasks/{task}', 'TasksController@show');
 
 Route::post('/posts/{post}/comments', 'CommentsController@store');
+
+
+Route::get('/register', 'RegistrationController@create');
+
+Route::post('/register', 'RegistrationController@store');
+
+
+Route::get('/login', 'SessionsController@create');
+
+Route::get('/logout', 'SessionsController@destroy');
+
+
