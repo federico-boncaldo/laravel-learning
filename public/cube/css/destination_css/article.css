@@ -1,0 +1,83 @@
+.articlepage {
+    padding: 32px 16px !important;
+    background: #fff;
+    border-left: 1px solid #b6b6b6;
+    border-right: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.articlepage .content_body {
+    padding: 16px;
+    color: #555;
+    font-size: 12px;
+}
+
+.articlepage .content_body .content_intro {
+    margin-bottom: 2em;
+    display: block;
+}
+
+.articlepage .content_body img {
+    width: 100%;
+}
+
+.articlepage .content_body .citytitle {
+    display: block;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 1.3em;
+}
+
+.articlepage .content_body h1 {
+    font-family: 'PTSansRegular';
+    font-size: 2.4em;
+    text-transform: none;
+    margin: 0 0 .8em 0;
+    font-weight: 100;
+}
+
+.articlepage .content_body h2 {
+    font-size: 1.3em;
+    text-transform: none;
+    color: #333;
+    margin: 2em 0 1em 0;
+}
+
+.articlepage .content_body strong {
+    font-size: 1.1em;
+}
+
+.articlepage .content_body p {
+    font-size: 1em;
+}
+        
+.articlepage .features h3 {
+    color: #555;
+    font-family: 'PTSansRegular';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: 1em 0 .5em 0;
+}
+
+.articlepage .features .content_box {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .articlepage {
+        padding: 8px !important;
+    }
+    .articlepage .content_body {
+        font-size: 11px;
+    }
+    .articlepage .content_body .citytitle { }
+    .articlepage .content_body h1 { }
+    .articlepage .content_body h2 { }
+    .articlepage .content_body strong { }
+    .articlepage .content_body p {
+        font-size: 1.1em;
+    }
+    .articlepage .features h3 { }
+    .articlepage .features .content_box { }
+}

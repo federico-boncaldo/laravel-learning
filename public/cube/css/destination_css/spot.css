@@ -1,0 +1,277 @@
+
+.spotpage .description_box {
+    border-bottom: 2px solid #87c025;
+    box-shadow: 0 0 2px rgba(0,0,0,0.4);
+    position: relative;
+    background: #fff;
+}
+
+.spotpage .description_box .top {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.spotpage .description_box .top .label {
+    background-color: #87c025;
+    margin: 0;
+    display: block;
+    border-radius: 0px;
+    text-transform: uppercase;
+    float: left;
+    padding: 0px 10px;
+    line-height: 21px;
+}
+.spotpage .description_box .top .helper {
+    font-size: 10px;
+    line-height: 21px;
+    display: block;
+    float: left;
+    padding: 0px 10px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.spotpage .description_box .body {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    min-height: 318px;
+}
+
+.spotpage .description_box .body h3 {
+    text-transform: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.spotpage .description_box .body h3 small {
+    font-weight: 100;
+    font-size: .8em
+}
+           
+.spotpage .bestfor {
+    height: 152px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.4);
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .spotpage .bestfor {
+        height: auto;
+    }
+}
+
+.spotpage .bestfor h4 {
+    margin: 0px;
+    background-color: #87c025;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.spotpage .bestfor ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.spotpage .bestfor ul li {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 55px;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: #fff;
+    margin: 1px .5%;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .spotpage .bestfor ul li {
+        width: 100%;
+    }
+}
+
+.spotpage .bestfor ul li:before {
+    font-family: 'icomoon';
+    display: block;
+    position: absolute;
+    content: '';
+    height: 32px;
+    width: 32px;
+    // border: 1px solid #87c025;
+    color: #87c025;
+    font-size: 32px;
+    border-radius: 32px;
+    top: 50%;
+    margin-top: -16px;
+    left: 10px;
+    line-height: 32px;
+}
+.spotpage .bestfor ul li.monuments:before {
+    content: "\e600";
+}
+.spotpage .bestfor ul li.markets:before {
+    content: "\e601";
+}
+.spotpage .bestfor ul li.pointer:before {
+    content: "\e602";
+}
+.spotpage .bestfor ul li.food:before {
+    content: "\e603";
+}
+.spotpage .bestfor ul li.bars:before  {
+    content: "\e604";
+}
+.spotpage .bestfor ul li.nature:before {
+    content: "\e605";
+}
+.spotpage .bestfor ul li.theatre:before {
+    content: "\e60e";
+}
+.spotpage .bestfor ul li.artsculture:before {
+    content: "\e60f";
+}
+.spotpage .bestfor ul li.fashion:before {
+    content: "\e610";
+}
+.spotpage .bestfor ul li.sports:before {
+    content: "\e611";
+}
+.spotpage .bestfor ul li.architecture:before {
+    content: "\e612";
+}
+.spotpage .bestfor ul li.livemusic:before {
+    content: "\e613";
+}
+.spotpage .bestfor ul li.museums:before {
+    content: "\e614";
+}
+.spotpage .bestfor ul li.nightlife:before {
+    content: "\e615";
+}
+.spotpage .bestfor ul li.shopping:before {
+    content: "\e616";
+}
+
+.spotpage .map {
+        height: 152px;
+        box-shadow: 0 0 1px rgba(0,0,0,0.4);
+        // margin-bottom: 16px;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+.spotpage .venues {
+        margin-top: 40px;
+
+.spotpage .venues h3 {
+    margin: 8px;
+    padding-left: 42px;
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.spotpage .venues h3 small {
+    font-size: 63%;
+}
+
+.spotpage .venues h3:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    position: absolute;
+    content: '';
+    height: 32px;
+    width: 32px;
+    // border: 1px solid #87c025;
+    color: #87c025;
+    font-size: 32px;
+    border-radius: 32px;
+    top: 50%;
+    margin-top: -16px;
+    left: 0px;
+    line-height: 32px;
+}
+.spotpage .venues h3.monuments:before {
+    content: "\e600";
+}
+.spotpage .venues h3.markets:before {
+    content: "\e601";
+}
+.spotpage .venues h3.pointer:before {
+    content: "\e602";
+}
+.spotpage .venues h3.food:before {
+    content: "\e603";
+}
+.spotpage .venues h3.bars:before  {
+    content: "\e604";
+}
+.spotpage .venues h3.nature:before {
+    content: "\e605";
+}
+.spotpage .venues h3.theatre:before {
+    content: "\e60e";
+}
+.spotpage .venues h3.artsculture:before {
+    content: "\e60f";
+}
+.spotpage .venues h3.fashion:before {
+    content: "\e610";
+}
+.spotpage .venues h3.sports:before {
+    content: "\e611";
+}
+.spotpage .venues h3.architecture:before {
+    content: "\e612";
+}
+.spotpage .venues h3.livemusic:before {
+    content: "\e613";
+}
+.spotpage .venues h3.museums:before {
+    content: "\e614";
+}
+.spotpage .venues h3.nightlife:before {
+    content: "\e615";
+}
+.spotpage .venues h3.shopping:before {
+    content: "\e616";
+}
+.spotpage .venues h3.shopping {
+    background: none;
+}
+
+.spotpage .related {
+    margin-top: 40px;
+}
+
+.spotpage .related h3 {
+    margin: 8px;
+    position: relative;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 616px) {
+    .spotpage .description {
+        height: auto;
+    }
+}

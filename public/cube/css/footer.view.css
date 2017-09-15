@@ -1,0 +1,13 @@
+#bottom_terms {
+	padding-bottom: 60px;
+}
+
+#bottom_terms a{
+	color:#00458f;
+	font-size:10px;
+	display: block;
+	padding-top: 0px;
+	padding-right: 160px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}

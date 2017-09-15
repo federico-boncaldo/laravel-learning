@@ -1,0 +1,91 @@
+#map {
+  stroke: orange !important;
+  position: absolute;
+  bottom: 0;
+  top: 50px;
+  width: 100%;
+}
+
+.my-icon {
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: white;
+  margin-left: -8px;
+  margin-top: -8px;
+  z-index: -10000 !important;
+}
+
+.icon-dc {
+  border-radius: inherit;
+  background: url("/assets/images/pin_location.png") no-repeat;
+  width: 78px;
+  height: 82px;
+  margin-left: -30px;
+  margin-top: -80px
+}
+
+.icon-sf {
+  border-radius: inherit;
+  width: 78px;
+  height: 82px;
+  background: url("/assets/images/pin_location.png") no-repeat;
+  margin-left: -30px;
+  margin-top: -80px
+}
+
+.leaflet-control-container {
+  position: absolute;
+  right: 70px;
+
+}
+
+.leaflet-bar a, .leaflet-control-layers-toggle, .leaflet-popup-close-button, .map-tooltip.closable .close, .mapbox-button-icon:before, .mapbox-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.leaflet-control-zoom-in {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-image: url(/assets/images/icon-plus.png);
+  background-image: linear-gradient(transparent,transparent),url(/assets/images/icon-plus.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 14px 15px !important;
+}
+
+.leaflet-control-zoom-out {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-image: url(/assets/images/icon-minus.png);
+  background-image: linear-gradient(transparent,transparent),url(/assets/images/icon-minus.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 14px 22px !important;
+}
+
+.leaflet-touch .leaflet-bar, .leaflet-touch .leaflet-control-layers {
+  border-radius: 8px;
+}
+
+.leaflet-bar a:hover:first-child {
+  border-radius: 8px 8px 0 0;
+}
+
+.leaflet-bar a:hover:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+.icon-sf, .icon-dc {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 13px;
+
+}

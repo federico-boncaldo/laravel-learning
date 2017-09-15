@@ -1,0 +1,142 @@
+.content_filter {
+    margin: 0px;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content_filter .scroll_back {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 32px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content_filter .scroll_back:after {
+    content: '';
+    border: 8px solid transparent;
+    border-right-color: #00458f;
+    border-right-width: 10px;
+    border-left-width: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}
+
+.content_filter .scroll_forward  {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 32px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.content_filter .scroll_forward:after {
+    content: '';
+    border: 8px solid transparent;
+    border-left-color: #00458f;
+    border-left-width: 10px;
+    border-right-width: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}
+
+.content_filter .filter_list {
+    padding: 0px;
+    margin: 0px 32px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.content_filter .filter_list li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.content_filter .filter_list li.selected {
+    background-color: #f16d00;
+    border-color: #f16d00;
+    color: #fff;
+}
+
+
+.content_filter_mobile {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    z-index: 9000;
+    background-color: #fff;
+}
+
+.content_filter_mobile .filter_btn {
+    background-color: #f16d00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.content_filter_mobile .menu label {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.content_filter_mobile .menu .filter_list {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.content_filter_mobile .menu .filter_list li {
+    cursor: pointer;
+    display: block;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    text-transform: uppercase;
+    background-color: #fff;
+    text-align: center;
+}
+
+.content_filter_mobile .menu .filter_list li.selected {
+    background-color: #f16d00;
+    border-color: #f16d00;
+    color: #fff;
+}

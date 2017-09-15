@@ -1,0 +1,393 @@
+
+#survey-form label.error {
+    color:red;
+}
+
+
+.sx-dropdown {
+	outline: none;
+	box-shadow: none;
+	height: 35px;
+	padding: 5px;
+	border-bottom: 2px solid rgba(1, 67, 143, 1);
+	background: rgba(242, 242, 242, 1);
+	border-color: rgba(1, 67, 143, 1);
+	border-bottom-color: rgba(1, 67, 143, 1);
+	color: rgba(0, 0, 0, 1);
+}
+.comment {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	background: rgb(242, 242, 242);
+	height: 35px;
+	padding: 4px 4px 4px 10px;
+	border: solid rgb(1, 67, 143);
+	border-width: 1px;
+	border-bottom-width: 2px;
+}
+textarea.comment {
+	height: auto;
+}
+.comment:focus {
+	border-left-color: rgba(1, 67, 143, 0.5);
+	border-right-color: rgba(1, 67, 143, 0.5);
+	border-top-color: rgba(1, 67, 143, 0.5);
+	border-bottom-color: rgba(236, 102, 8, 1);
+	background: rgba(255, 255, 255, 1);
+	border-bottom-width: 4px;
+	transition: 0.9s ease all;
+	transition-property: background, border-color, border-bottom-width;
+	outline: none;
+}
+
+/* Styling for the radio buttons */
+
+.sx-radio-buttons input[type="radio"] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	vertical-align: -5px;
+}
+
+.sx-radio-buttons [type="radio"] + label:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -5px;
+	border-radius: 30px;
+	border: 5px solid #FFF;
+	box-shadow: 0 0 0 2px #646464;
+	margin-right: 15px;
+	transition: 0.1s ease-out all;
+	background: #FFF;
+}
+.sx-radio-buttons [type="radio"]:hover + label:before {
+	background: #646464;
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -5px;
+	border-radius: 30px;
+	border: 5px solid #FFF;
+	box-shadow: 0 0 0 2px #646464;
+	margin-right: 15px;
+	transition: 0.1s ease-out all;
+}
+
+.sx-radio-buttons [type="radio"]:checked + label:before {
+	background: rgba(1, 67, 143, 1);
+	box-shadow: 0 0 0 0 #000;
+	width: 20px;
+	height: 20px;
+	vertical-align: -5px;
+}
+
+.sx-radio-buttons label {
+	font-weight: normal;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+
+/* Styling for the rating buttons */
+.rating_icon_cont{
+	width: 100%;
+	display: block;
+	float: left;
+	height: 40px;
+	position: relative;
+}
+.rating_icon{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+}
+
+.sx-rating-buttons.non_mobile{
+	display: block;
+}
+.sx-rating-buttons.mobile{
+	display: none;
+}
+
+.survey_cont form h4.dropdown_input{
+	width: 50%;
+    max-width: 200px;
+    float: left;
+}
+
+.survey_cont form h4{
+	padding-top: 6px;
+}
+
+.survey_cont form h4{
+	clear: both;
+}
+
+.survey_cont form input, .survey_cont form select{
+    float: left;
+}
+.survey_cont form input{
+	border:1px solid #ccc;
+}
+
+.survey_cont form select.inline-select{
+    margin-right: 5px;
+}
+
+.sx-rating-buttons{
+}
+
+.sx-rating-buttons table{
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 20px;
+}
+
+.sx-rating-buttons input[type="radio"] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	vertical-align: -10px;
+	padding-left: 5px;
+}
+
+.sx-rating-buttons [type="radio"] + label:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -4px;
+	border-radius: 30px;
+	border: 5px solid rgba(222,222,222,1);
+	box-shadow: 0 0 0 2px #646464;
+	margin-right: 10px;
+	transition: 0.1s ease-out all;
+	background: rgba(222,222,222,1);
+	padding-left: 5px;
+}
+.sx-rating-buttons [type="radio"]:hover + label:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -4px;
+	border-radius: 30px;
+	border: 5px solid rgba(222,222,222,1);
+	box-shadow: 0 0 0 2px rgba(222,222,222,1);
+	margin-right: 10px;
+	transition: 0.1s ease-out all;
+	background: #646464 ;
+	padding-left: 5px;
+}
+.sx-rating-buttons [type="radio"]:checked + label:before {
+	background: rgba(1, 67, 143, 1);
+	box-shadow: 0 0 0 0 #000;
+	width: 20px;
+	height: 20px;
+	vertical-align: -4px;
+	padding-left: 5px;
+}
+/* Table styling */
+
+.toprow {
+	max-width: 100px;
+	margin-top: 20px;
+	padding-top:20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+	background-color: rgba(188,188,188,1);
+	color: white;
+	vertical-align: bottom;
+}
+
+.toprow_3smiley {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.toprow label{
+	margin-left: 0 !important;
+	font-size: 10px;
+}
+
+.bottomrow {
+	text-align: center;
+	background-color: rgba(222,222,222,1);
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.bottomrow_3smiley {
+	padding-bottom: 5px;
+	width: 10%;
+}
+
+.bottomrow label {
+	margin-left: 10px;
+}
+
+/* Styling for the check boxes */
+
+.sx-check-boxes input[type="checkbox"] {
+	margin: 3px 0.5ex;
+	padding: initial;
+	background-color: initial;
+	border: initial;
+	display: none;
+	text-align: center;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	border-radius: 2px;
+	transition: all 0.25s ease-in;
+}
+.sx-check-boxes input[type="checkbox"] + label:before {
+	text-align: center;
+	border: 2px solid rgba(100, 100, 100, 1);
+	content: "\00a0";
+	display: inline-block;
+	font: 18px/1em sans-serif;
+	height: 20px;
+	margin: 0 5px 0 5px;
+	padding: 0;
+	width: 20px;
+	transition: all 0.25s ease-in;
+	border-radius: 2px;
+}
+.sx-check-boxes input[type="checkbox"]:checked + label:before {
+	text-align: center;
+	transition: all 0.25s ease-in;
+	-webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
+	transform: translate3d(0, 0, 0) rotate(-45deg);
+	height: 8px;
+	margin-top: -5px;
+	border-color: rgba(1, 67, 143, 1);
+	border-top: none;
+	border-right: none;
+	border-radius: 0px;
+	transition: all 0.25s ease-in;
+	border-width: 2px;
+	width: 20px;
+}
+.sx-check-boxes input[type="checkbox"]:checked + label:after {
+	text-align: center;
+	font-weight: bold;
+	border-color: rgba(1, 67, 143, 1);
+	color: yellow;
+	transition: all 0.25s ease-in;
+}
+
+/* Styling for the button */
+
+.sx-submit-form, #btn-previousQuestionnaire {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	outline: none;
+	background-image: linear-gradient(to bottom, rgba(242, 144, 52, 1), rgba(236, 102, 8, 1));
+	background-image: -webkit-linear-gradient(top, rgba(242, 144, 52, 1), rgba(236, 102, 8, 1));
+	border: 1px solid rgba(255, 255, 255, 1);
+	cursor: pointer;
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+	min-width: 250px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+	font-family: "Lato", Arial, sans-serif;
+}
+
+.survey_cont{
+	padding: 30px;
+	background-color: #fff;
+	margin: 20px 0px;
+}
+
+.survey_cont h4{
+	margin: 0 0 15px 0;
+}
+
+.survey_cont .ui-progressbar .ui-progressbar-value.ui-widget-header{
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+#progressbar{
+	background-image: -webkit-linear-gradient(top, rgba(215,215,215,1), rgba(242,242,242,1)) !important;
+    background-image: linear-gradient(to bottom, rgba(215,215,215,1), rgba(242,242,242,1)) !important;
+    border: none;
+    width: 100% !important;
+}
+
+.submit_div{
+	text-align: center;
+	width: auto !important;
+}
+.submit_div input{
+	display: inline-block;
+}
+
+.submit_div input.sx-submit-form{
+	right: 35px;
+	text-align: center;
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+.submit_div #btn-previousQuestionnaire {
+	left: 35px;
+}
+
+@media screen and (max-width: 767px){
+	.sx-rating-buttons.non_mobile{
+		display: none;
+	}
+	.sx-rating-buttons.mobile{
+		display: block;
+	}
+	.survey_cont{
+		background-color: transparent;
+		padding: 0;
+	}
+	.survey_cont form h4.dropdown_input{
+		width: 100%;
+	    max-width: 100%;
+	    margin-bottom: 0;
+	}
+	.survey_cont form input, .survey_cont form select{
+		margin-bottom: 10px;
+	}
+	.submit_div input.sx-submit-form, .submit_div #btn-previousQuestionnaire{
+		width: 100%;
+		position: relative;
+		left: auto;
+		right: auto;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	.bottomrow_3smiley {
+		width: 25%;
+	}
+}

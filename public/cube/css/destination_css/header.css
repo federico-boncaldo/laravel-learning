@@ -1,0 +1,283 @@
+.destination_container header .header_container {
+    max-width: 960px;
+    margin:auto;
+    background-size: cover;
+    position: relative;
+    padding: 3em;
+    color: #fff;
+}
+
+.destination_container header .header_container h1 {
+    color: #fff;
+}
+
+.destination_container header .header_container .header_tabs {
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    z-index: 2;
+}
+
+.destination_container header .header_container .header_tabs .tab {
+    color: #797979;
+    display: inline-block;
+    background: #d2d2d2;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px 15px;
+    line-height: 1em;
+    cursor: pointer;
+    border-top: 3px solid #d2d2d2;
+}
+
+@media screen and (max-width: 480px) {
+    .destination_container header .header_container .header_tabs .tab {
+        display:none;
+    }
+}
+
+.destination_container header .header_container .header_tabs .tab.active {
+    color: #474747;
+    background: #f5f5f5;
+    border-top: 3px solid #f16d00;
+}
+
+
+.destination_container header.dest_header {
+    background: #3d627f url('/assets/sx-tail-bg.jpg') left center repeat-x;
+}
+
+.destination_container header.dest_header .header_container {
+    background: url('/assets/sx-tail.png') right bottom no-repeat;
+    background-size: 45%;
+}
+
+.destination_container header.dest_header .header_container h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.destination_container header.dest_header .header_container h1 .airline {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: .7em;
+}
+
+.destination_container header.dest_header .header_container h1 .featured {
+    display: block;
+    font-size: 2.4em;
+    color: orange;
+    letter-spacing: .1em;
+}
+
+.destination_container header.dest_header .header_container h1 .destinations {
+    display: block;
+    font-size: .9em;
+    font-weight: bold;
+    color: rgba(255,255,255,0.6);            
+    letter-spacing: .7em;
+}
+
+.destination_container header.dest_header .header_container h2 {
+    color: #fff;
+    text-transform: none;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.8em;
+    margin-top: 3em;
+}
+
+.destination_container header.dest_header .header_container h2 .top {
+    display:block;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.destination_container header.dest_header .header_container h2 .bottom {
+    display:block;
+}
+
+.destination_container header.venue_header .header_container,        
+.destination_container header.spot_header .header_container,        
+.destination_container header.city_header .header_container  {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 340px;
+}
+                
+.destination_container header.venue_header .header_container:before,        
+.destination_container header.spot_header .header_container:before,        
+.destination_container header.city_header .header_container:before  {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.destination_container header.venue_header .header_container .bggradient,        
+.destination_container header.spot_header .header_container .bggradient,        
+.destination_container header.city_header .header_container .bggradient {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 30%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(30%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0.65) 30%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    z-index: 1;
+}
+
+.destination_container header.venue_header .header_container .header_content,        
+.destination_container header.spot_header .header_container .header_content,        
+.destination_container header.city_header .header_container .header_content {
+    position: absolute;
+    padding: 24px;
+    top:0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.destination_container header.venue_header .header_container .header_content h1,        
+.destination_container header.spot_header .header_container .header_content h1,        
+.destination_container header.city_header .header_container .header_content h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    z-index: 2;
+}
+
+.destination_container header.venue_header .header_container .header_content .personalise_btn,        
+.destination_container header.spot_header .header_container .header_content .personalise_btn,        
+.destination_container header.city_header .header_container .header_content .personalise_btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    padding: 10px 32px 10px 10px;
+    color: #fff;
+    background: #f16d00;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.destination_container header.venue_header .header_container .header_content .personalise_btn:after ,        
+.destination_container header.spot_header .header_container .header_content .personalise_btn:after ,        
+.destination_container header.city_header .header_container .header_content .personalise_btn:after {
+    content: '';
+    border: 5px solid transparent;
+    border-left-color: #fff;
+    border-left-width: 8px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -6px;
+}
+
+.destination_container header.venue_header .header_container .header_content .overview,        
+.destination_container header.spot_header .header_container .header_content .overview,        
+.destination_container header.city_header .header_container .header_content .overview {
+    z-index: 2;
+    text-shadow: 0 0 15px #000;
+}
+
+.destination_container header.venue_header .header_container .header_content .overview h3,        
+.destination_container header.spot_header .header_container .header_content .overview h3,        
+.destination_container header.city_header .header_container .header_content .overview h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.destination_container header.venue_header .header_container .header_content .overview .text,        
+.destination_container header.spot_header .header_container .header_content .overview .text,        
+.destination_container header.city_header .header_container .header_content .overview .text {
+    width: 50%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.destination_container header.venue_header .header_container .header_content .overview .text:after,        
+.destination_container header.spot_header .header_container .header_content .overview .text:after,        
+.destination_container header.city_header .header_container .header_content .overview .text:after {
+    content: '...'
+}
+
+.destination_container header.venue_header .header_container .header_content .overview .rm,        
+.destination_container header.spot_header .header_container .header_content .overview .rm,        
+.destination_container header.city_header .header_container .header_content .overview .rm{
+    margin-top: 1em;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+
+@media screen and (max-width: 480px) {
+    .destination_container header.venue_header .header_container .header_content,        
+    .destination_container header.spot_header .header_container .header_content,        
+    .destination_container header.city_header .header_container .header_content {
+        height: 240px;
+    }
+
+    .destination_container header.venue_header .header_container .header_content h1,        
+    .destination_container header.spot_header .header_container .header_content h1,        
+    .destination_container header.city_header .header_container .header_content h1 {   
+        font-size: 32px;
+    }
+
+    .destination_container header.venue_header .header_container .header_content .personalise_btn,        
+    .destination_container header.spot_header .header_container .header_content .personalise_btn,        
+    .destination_container header.city_header .header_container .header_content .personalise_btn {
+        top: auto;
+        bottom: 30px;
+        left: 30px;
+        right: auto;
+    }
+
+    .destination_container header.venue_header .header_container .header_content .overview,        
+    .destination_container header.spot_header .header_container .header_content .overview,        
+    .destination_container header.city_header .header_container .header_content .overview {
+        display: none;
+    }
+
+    .destination_container header.venue_header .header_container .header_content .overview .text,        
+    .destination_container header.spot_header .header_container .header_content .overview .text,        
+    .destination_container header.city_header .header_container .header_content .overview .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .destination_container header.dest_header .header_container {
+        font-size: 10px;
+    }
+
+    .destination_container header.dest_header .header_container h2 .top {
+        display:none;
+    }
+
+    .destination_container header.header_container {
+        height: 245px !important;
+    }
+}

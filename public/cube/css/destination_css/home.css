@@ -1,0 +1,9 @@
+.dest_cont #featured .featured_city .features_container .content_box {
+    margin-bottom: 16px;
+}
+
+.dest_cont #featured .featured_city:after {
+    content: '';
+    display: block;
+    clear: both;
+}

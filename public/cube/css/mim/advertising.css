@@ -1,0 +1,11 @@
+/* Prevent controls on iOS devices while ad is playing */
+
+video.mim_advertising_video_preroll_playing::-webkit-media-controls-panel,
+video.mim_advertising_video_preroll_playing::-webkit-media-controls-play-button,
+video.mim_advertising_video_preroll_playing::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}

@@ -1,0 +1,19 @@
+
+
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../font/leaguegothic.eot');
+	src: url('../font/leaguegothic.eot?#iefix') format('eot'),
+	url('../font/leaguegothic.svg') format('svg'),
+	url('../font/leaguegothic.woff') format('woff'),
+	url('../font/leaguegothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'League Gothic';
+		src: url('../font/leaguegothic.svg') format('svg');
+	}
+}

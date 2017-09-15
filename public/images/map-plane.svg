@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="54px" viewBox="0 0 56 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Plane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-plane-large" fill="#FFFFFF">
+            <g id="Plane">
+                <path d="M56,27 C56,24.7263158 54.04,22.7368421 51.8,22.7368421 L36.4,22.7368421 L22.4,0 L16.8,0 L23.8,22.7368421 L8.4,22.7368421 L4.2,17.0526316 L0,17.0526316 L2.8,27 L0,36.9473684 L4.2,36.9473684 L8.4,31.2631579 L23.8,31.2631579 L16.8,54 L22.4,54 L36.4,31.2631579 L51.8,31.2631579 C54.04,31.2631579 56,29.2736842 56,27 L56,27 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

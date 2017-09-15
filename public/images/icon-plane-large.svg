@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="53px" viewBox="0 0 56 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-plane-large</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SXS-–-Tablet-Portrait-–-Screen-6-–-Flight-Tracker" transform="translate(-176.000000, -956.000000)">
+            <g id="Flight-Tracker-Bar-–-Info-Link" transform="translate(24.000000, 940.000000)">
+                <g id="icon-plane" transform="translate(152.000000, 15.000000)">
+                    <g id="icon-take-off" stroke-width="1" fill="#CCCCCC" fill-opacity="0">
+                        <rect id="Rectangle-7" x="0" y="0" width="56" height="54"></rect>
+                    </g>
+                    <path d="M56,27.1607143 C56,24.9682331 54.04,23.049812 51.8,23.049812 L36.4,23.049812 L22.4,1.125 L16.8,1.125 L23.8,23.049812 L8.4,23.049812 L4.2,17.568609 L0,17.568609 L2.8,27.1607143 L0,36.7528195 L4.2,36.7528195 L8.4,31.2716165 L23.8,31.2716165 L16.8,53.1964286 L22.4,53.1964286 L36.4,31.2716165 L51.8,31.2716165 C54.04,31.2716165 56,29.3531955 56,27.1607143 L56,27.1607143 Z" id="Shape" fill="#00458F"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

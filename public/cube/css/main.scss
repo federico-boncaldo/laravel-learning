@@ -1,0 +1,17 @@
+@import "cards.css.scss";
+@import "magazine_categories.css.scss";
+@import "purchases.css.scss";
+@import "search.css.scss";
+@import "settings.css.scss";
+@import "shared/header.view";
+
+
+.alert-block {
+  text-align: center;
+  margin-top:25px;
+  margin-bottom:0 !important;
+}
+
+.help-block.form-error {
+  color:#a94442;
+}

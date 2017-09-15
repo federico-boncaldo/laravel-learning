@@ -1,0 +1,90 @@
+.interest_filter_desktop {
+    margin: 20px 0px;
+}
+
+.interest_filter_desktop label {
+    display: block;
+    margin: 0px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.interest_filter_desktop .interest_tag {
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    padding-right: 24px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    background-color: #fff;
+    position: relative;
+}
+
+.interest_filter_desktop .interest_tag .delete {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    bottom:0px;
+    font-size: 10px;
+    padding: 8px;
+}
+
+.interest_filter_desktop .interest_refine {
+    cursor: pointer;
+    position: relative;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #494949;
+    margin: 5px;
+    display: inline-block;
+}
+
+.interest_filter_desktop .interest_refine:after {
+    content: ' >';
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: -10px;
+}
+
+.city_modal .modal-dialog {
+    max-width: 640px;
+}
+
+.city_modal .modal-dialog .modal-content {
+    border-radius: 0px;
+    padding: 20px 30px;
+}
+
+.city_modal .modal-dialog .modal-content .modal-header {
+    border-bottom: 2px dotted #ccc;
+    padding: 0px 0px 5px 0px;
+}
+
+.city_modal .modal-dialog .modal-content .modal-header .close {
+    font-weight: normal;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.city_modal .modal-dialog .modal-content .modal-body {
+    padding: 10px 0px;
+}
+
+.city_modal .modal-dialog .modal-content .modal-body p {
+    font-size: 12px;
+    margin-bottom: 1.5em;
+}
+
+.city_modal .modal-dialog .modal-content .modal-body .city_map {
+    margin-left: 0px;
+}
+
+.city_modal .modal-dialog .modal-content .modal-body .city_map .responsive_img {
+    height: 250px;
+    position: relative;
+    overflow:hidden;
+}
